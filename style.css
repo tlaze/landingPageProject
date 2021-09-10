@@ -1,0 +1,18 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    width: 100%;
+    background: grey;
+    position: fixed;
+    top:0;
+    color:blue;
+    font-weight:bold;
+}
+nav ul{
+    list-style-type:none;
+    text-align: right;
+
+
+/* find out how to remove bullets from ul */
