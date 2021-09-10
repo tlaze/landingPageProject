@@ -12,7 +12,10 @@ header{
 }
 nav ul{
     list-style-type:none;
-    text-align: right;
+    display:flex;
+    justify-content:end;
+}
 
-
-/* find out how to remove bullets from ul */
+nav li{
+    padding: 10px;
+}
