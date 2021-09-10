@@ -4,18 +4,28 @@
 
 header{
     width: 100%;
-    background: grey;
+    background: rgb(20, 7, 38);
     position: fixed;
     top:0;
     color:blue;
     font-weight:bold;
 }
+
+nav{
+    display: inline-flex;
+}
+nav h1{
+    justify-content:start;
+}
 nav ul{
     list-style-type:none;
-    display:flex;
     justify-content:end;
 }
 
 nav li{
-    padding: 10px;
+    /* get links to display inline */
+}
+
+a{
+    color:rgb(249,239,168);
 }
