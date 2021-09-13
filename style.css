@@ -12,12 +12,23 @@ header{
 }
 
 .navbar{
-    display: flex;
-}
-.navbar h1{
-    justify-content: flex-start;
+    display: inline;
 }
 
-a{
+.navbar h1{
+    float:left;
     color:rgb(249,239,168);
+}
+
+.navbar li{
+    float:right;
+}
+
+.navbar a{
+    padding:10px;
+    color:rgb(249,239,168);
+}
+
+.welcomeImg{
+    width:100%;
 }
