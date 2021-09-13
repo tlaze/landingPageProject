@@ -30,6 +30,10 @@
     font-size:25px;
 }
 
+a:hover{
+    color:rgba(246,203,44,1);
+}
+
 body{
     background-color: rgba(38,42,54,1);
 
