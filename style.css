@@ -12,18 +12,14 @@ header{
 }
 
 nav{
-    display: inline-flex;
+    display: flex;
 }
 nav h1{
-    justify-content:start;
+    justify-content: flex-start;
 }
 nav ul{
     list-style-type:none;
-    justify-content:end;
-}
-
-nav li{
-    /* get links to display inline */
+    justify-content: flex-end; 
 }
 
 a{
