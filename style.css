@@ -1,15 +1,18 @@
 *{
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
     width: 100%;
-    background-color:rgba(168,74,31,1);
+    background-color:rgba(38,42,54,1);
     position: fixed;
     top:0;
     font-weight:bold;
     display: inline;
-    color: rgba(195,213,252,1)
+    color: rgba(255,255,255,1);
+    border: 5px solid rgba(232,125,34,1);
+    padding: 7px;
+    
 }
 
 .navbar h1{
@@ -30,7 +33,7 @@
     color:inherit;
 }
 body{
-    background-color: rgba(23,9,41,1);
+    background-color: rgba(38,42,54,1);
 
 }
 
@@ -38,8 +41,10 @@ body{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 65px;
     width:50%; 
-    height: 550px;
-    width: 1000px;
+    height: 250px;
+    width: 500px;
+    border-radius: 25px;
+    border: 5px solid rgba(246,203,44,1);
 }
