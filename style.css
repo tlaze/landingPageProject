@@ -48,8 +48,8 @@ main{
 }
 
 #welcomeImg{
-    height: 250px;
-    width: 500px;
+    height: 200px;
+    width: 450px;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 25px;
@@ -62,7 +62,11 @@ main{
 #contactInfo{
     color:rgba(255,255,255,1);
     font-size: 25px;
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
     border-radius:25px;
+    padding:10px;
     border-top: 5px solid rgba(246,203,44,1);
     border-bottom: 5px solid rgba(246,203,44,1);
     border-left: 5px solid rgba(232,125,34,1);
@@ -70,21 +74,27 @@ main{
 
 }
 
-#infoBox{
+#contactInfo ul{
     margin-top:20px;
+    text-align:center;
 
 }
 
-#contactInfo li{
-    margin-right: 10px;
+
+#contactInfo label{
     font-size: 15px;
+    display:inline-block;
+    text-align:center;
 }
 
 #contactInfo button{
     margin-top:15px;
     font-size:20px;
+    width:90px;
+    height: 27fpx;
 }
 
 footer{
-    margin-top: 50px;
+    margin-top: 150px;
+    color:rgba(255,255,255,1);
 }
